@@ -46,7 +46,7 @@ function dbQuery($query){
 }	
 //Insercion de datos
 
-$query = "INSERT INTO `".nombreTabla()."` (`ID`, `FECHA`, `HORA`, `LATITUD`, `LONGITUD`) VALUES (ABS(NULL), '".$_GET["fecha"]."', '".$_GET["hora"]."', '".$_GET["lat"]."', '".$_GET["lon"]."')";
+/*$query = "INSERT INTO `".nombreTabla()."` (`ID`, `FECHA`, `HORA`, `LATITUD`, `LONGITUD`) VALUES (ABS(NULL), '".$_GET["fecha"]."', '".$_GET["hora"]."', '".$_GET["lat"]."', '".$_GET["lon"]."')";
 
 $result = dbQuery($query);
 
@@ -55,7 +55,7 @@ $result = dbQuery($query);
 		echo $error;
 	}else{
 		echo "Coordinates succesfully uploaded to database.";
-	}
+	}*/
 
 
 ?>
